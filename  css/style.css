@@ -1,0 +1,36 @@
+p{ font-size: 20px;
+         font-weight: bold;
+        }
+
+
+
+        img{
+          width: 200px;
+         height: 400px
+        }
+
+        div  { background-color: beige;
+               padding-left: 30px;
+              margin-right:  20px;
+        }
+
+ >
+.division1 {
+     background-color:blue}
+
+.division2{
+    background-color: aqua}
+
+
+.division3{
+    background-color: chartreuse}
+
+
+.heading1{
+    color: aquamarine}
+
+.imageparagraph{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 10px;
+}

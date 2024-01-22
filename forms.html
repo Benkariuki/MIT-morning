@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>student form</title>
+    <link rel="stylesheet" href="%20css/stylish.css">
+</head>
+<body>
+
+
+<form action="">
+
+    <legend> STUDENT INFORMATION</legend>
+
+    <br><br>
+    <label for="fname"> First name:</label>
+    <input type="text" id="fname"  placeholder="first name" required="required"            >
+    <br><br>
+
+    <label for=" sname"> surname:</label>
+    <input type="text" id=" sname" placeholder=" surname"  required="required">
+    <br><br>
+
+    <label for="email"> email address</label>
+    <input type="email" id="email" placeholder="abcd@gmail.com" required="required">
+    <br><br>
+
+    <label for="pwd"> password</label>
+    <input type="password" id="pwd" placeholder=" type your password" required="required">
+    <br><br>
+<!--using a radio-->
+    <p> choose a programming language:</p>
+    <input type="radio" id="python">
+    <label for="python"> python</label>
+    <br>
+
+    <input type="radio" id="java">
+    <label for="java"> java</label>
+
+    <br>
+
+     <input type="radio" id="PHP language">
+    <label for="PHP language"> PHP</label>
+    <br><br>
+
+<!-- using a checkbox-->
+    <p> select favourite game</p>
+
+    <input type="checkbox" id="football">
+    <label for="football"> football</label>
+    <br>
+
+
+    <input type="checkbox" id="tennis">
+    <label for="tennis"> tennis</label>
+    <br>
+
+
+ <input type="checkbox" id="hockey">
+    <label for="hockey"> hockey</label>
+    <br><br>
+
+<!--use the tag option, value does not appear. after the closing greater than sig put the name of coursen-->
+    <label for="course">select a course</label>
+    <select name="" id="course">
+        <option value="choose" disabled="disabled">---choose course---</option>
+        <option value="comp"> computer science</option>
+        <option value="eng"> software enginering</option>
+        <option value=" IT"> information technology</option>
+        <option value=" appcomps"> applied computer science</option>
+
+    </select>
+    <br><br>
+
+
+    <label for="file"> choose a file</label>
+    <input type="file" id="file" required="required">
+    <br>
+
+    <label for="type"> describe yourself</label>
+    <textarea name=" type" id="type" cols="30" rows="10"> </textarea>
+    <br><br>
+
+    <label for="yob"> year of birth</label>
+    <input type="date" id="yob" required="required">
+    <br><br>
+
+
+
+
+    <button type="submit"> submit</button>
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+</body>
+</html>
